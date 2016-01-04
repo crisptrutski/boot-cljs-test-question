@@ -1,2 +1,6 @@
 # boot-cljs-test-question
-why is my test not getting run when I try boot auto-test ?
+This project targets node js.
+
+Why are symbols like async, deftest, testing all not recognized on line 2 of test/silliness/core_test.cljs?
+
+To see, run boot auto-test
