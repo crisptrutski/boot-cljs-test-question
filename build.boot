@@ -21,7 +21,6 @@
         (test-cljs :js-env :node)))
 
 (deftask build []
-  ; (set-env! :source-paths #{"src"})
   (cljs :source-map true
         :optimizations :none
         :compiler-options {:target :nodejs}))
